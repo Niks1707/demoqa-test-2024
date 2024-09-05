@@ -1,3 +1,5 @@
+package tests;
+
 import org.junit.jupiter.api.*;
 
 public class SimpleJUnitTest {
@@ -31,7 +33,6 @@ public class SimpleJUnitTest {
         Assertions.assertTrue(result > 2);
     }
 
-
     @Test
     void secondTest() {
         System.out.println("###   secondTest()");
@@ -45,6 +46,6 @@ public class SimpleJUnitTest {
     }
     
     private int getResult() {
-       return 3;
+       return 9;
     }
 }
